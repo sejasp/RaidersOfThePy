@@ -2,7 +2,7 @@
 
 ## JSON
 
-### Map object
+### Map (a.k.a. Dictionary object in Python)
 ```
 {
     "name": "Captain Underpants",
@@ -48,3 +48,19 @@
     {"name": "Kal-El", "age": 30, "hometown": "Krypton"}
 ]
 ```
+
+
+## CSV
+
+### Enclosed with double quotes, Delimited by comma
+```
+"name", "hometown", "age"
+"Kal-El", "Krypton", 30
+"Captain Underpants", "America", 10
+```
+
+### Only Delimited by comma, not enclosed
+```
+name, hometown, age
+Kal-El, Krypton, 30
+Captain Underpants, America, 10
