@@ -1,5 +1,8 @@
+# Major file types
 
-## JSON Map
+## JSON
+
+### Map object
 ```
 {
     "name": "Captain Underpants",
@@ -10,19 +13,19 @@
 }
 ```
 
-## JSON Lists
+### Lists
 
-### Integer List
+#### Integer List
 ```
 [1, 2, 3, 4, 5, 6]
 ```
 
-### String list
+#### String list
 ```
 ['a', 'b', 'c', 'd']
 ```
 
-### List of Maps
+#### List of Maps (Pretty)
 ```
 [ 
     {
@@ -38,6 +41,7 @@
 ]
 ```
 
+#### List of Maps (Condensed)
 ```
 [
     {"name": "Captain Underpants", "age": 10, "hometown":"America"},
